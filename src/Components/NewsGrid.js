@@ -19,10 +19,7 @@ export default function NewsGrid() {
             />
             <Card.Body>
               <Card.Title>{title}</Card.Title>
-              <a
-                href={`news/${idx + 1}`}
-                class="btn btn-primary stretched-link"
-              >
+              <a href={`news${idx + 1}`} class="btn btn-primary stretched-link">
                 Переглянути
               </a>
             </Card.Body>
