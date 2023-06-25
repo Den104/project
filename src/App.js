@@ -25,11 +25,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/news" element={<News />} />
-          <Route path="/news/1" element={<News1 />} />
-          <Route path="/news/2" element={<News2 />} />
-          <Route path="/news/3" element={<News3 />} />
-          <Route path="/news/4" element={<News4 />} />
-          <Route path="/news/2" element={<News5 />} />
+          <Route path="/news1" element={<News1 />} />
+          <Route path="/news2" element={<News2 />} />
+          <Route path="/news3" element={<News3 />} />
+          <Route path="/news4" element={<News4 />} />
+          <Route path="/news5" element={<News5 />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </div>
