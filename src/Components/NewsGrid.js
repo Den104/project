@@ -1,4 +1,5 @@
 import { Row, Col, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function NewsGrid() {
   return (
@@ -19,9 +20,12 @@ export default function NewsGrid() {
             />
             <Card.Body>
               <Card.Title>{title}</Card.Title>
-              <a href={`news${idx + 1}`} class="btn btn-primary stretched-link">
+              <Link
+                to={`news${idx + 1}`}
+                class="btn btn-primary stretched-link"
+              >
                 Переглянути
-              </a>
+              </Link>
             </Card.Body>
           </Card>
         </Col>
