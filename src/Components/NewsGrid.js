@@ -21,7 +21,7 @@ export default function NewsGrid() {
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Link
-                to={`news${idx + 1}`}
+                to={`/news${idx + 1}`}
                 class="btn btn-primary stretched-link"
               >
                 Переглянути
